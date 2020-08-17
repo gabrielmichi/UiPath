@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6.1": [
+      "UiPath.Excel.Activities >= 2.3.6682.26635 <= 2.3.6682.26635",
+      "UiPath.Mail.Activities >= 1.1.6562.21018 <= 1.1.6562.21018",
+      "UiPath.System.Activities >= 18.3.6844.27939 <= 18.3.6844.27939",
+      "UiPath.UIAutomation.Activities >= 18.3.6877.28298 <= 18.3.6877.28298"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabriel.michi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "Academy",
+      "projectName": "Academy",
+      "projectPath": "C:\\RPA\\UiPath_Academy\\Lesson 5 - Advanced UI Interaction\\.local",
+      "packagesPath": "C:\\Users\\gabriel.michi\\.nuget\\packages\\",
+      "outputPath": "C:\\RPA\\UiPath_Academy\\Lesson 5 - Advanced UI Interaction\\.local"
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "UiPath.Excel.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.3.6682.26635, 2.3.6682.26635]"
+          },
+          "UiPath.Mail.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.6562.21018, 1.1.6562.21018]"
+          },
+          "UiPath.System.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[18.3.6844.27939, 18.3.6844.27939]"
+          },
+          "UiPath.UIAutomation.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[18.3.6877.28298, 18.3.6877.28298]"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.Excel.Activities with version (= 2.3.6682.26635)\r\n  - Found 2 version(s) in https://platform.uipath.com/s2mcoeaxbvft/GabrielMichi/nuget/activities [ Nearest version: 2.5.4 ]\r\n  - Found 1 version(s) in C:\\Users\\gabriel.michi\\AppData\\Local\\UiPath\\app-19.10.3\\.\\Packages [ Nearest version: 2.7.2 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 2.7.2 ]\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.Excel.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.System.Activities with version (= 18.3.6844.27939)\r\n  - Found 2 version(s) in https://platform.uipath.com/s2mcoeaxbvft/GabrielMichi/nuget/activities [ Nearest version: 19.4.1 ]\r\n  - Found 1 version(s) in C:\\Users\\gabriel.michi\\AppData\\Local\\UiPath\\app-19.10.3\\.\\Packages [ Nearest version: 19.10.1 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 19.10.1 ]\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.System.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.Mail.Activities with version (= 1.1.6562.21018)\r\n  - Found 2 version(s) in https://platform.uipath.com/s2mcoeaxbvft/GabrielMichi/nuget/activities [ Nearest version: 1.4.1 ]\r\n  - Found 1 version(s) in C:\\Users\\gabriel.michi\\AppData\\Local\\UiPath\\app-19.10.3\\.\\Packages [ Nearest version: 1.7.2 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 1.7.2 ]\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.Mail.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package UiPath.UIAutomation.Activities with version (= 18.3.6877.28298)\r\n  - Found 2 version(s) in https://platform.uipath.com/s2mcoeaxbvft/GabrielMichi/nuget/activities [ Nearest version: 19.4.2 ]\r\n  - Found 1 version(s) in C:\\Users\\gabriel.michi\\AppData\\Local\\UiPath\\app-19.10.3\\.\\Packages [ Nearest version: 19.11.1 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 19.11.1 ]\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org",
+      "libraryId": "UiPath.UIAutomation.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    }
+  ]
+}

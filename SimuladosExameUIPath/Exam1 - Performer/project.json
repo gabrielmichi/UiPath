@@ -1,0 +1,36 @@
+{
+  "name": "Exam1 - Performer",
+  "description": "Exam 1 Perfromer does the following:\r\n\r\nLog in to https://www.acme-test.com.\r\nFor each Queue Item:\r\nClick or hover over the Invoices menu item and then click on Search for Invoice;\r\nType the Invoice Number retrieved from the queue item into the Invoice Number field field;\r\nClick on Search;\r\nExtract the values for the Invoice Item and Total and compare them with the values from the queue item (check for EXACT match for all fields!);\r\nIf the values are not matching, this should be categorized as a",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.System.Activities": "[19.10.1]",
+    "UiPath.UIAutomation.Activities": "[19.11.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.2.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    }
+  },
+  "expressionLanguage": "VisualBasic"
+}

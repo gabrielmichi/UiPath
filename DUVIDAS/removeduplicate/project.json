@@ -1,0 +1,24 @@
+{
+  "name": "Remove Duplicates Range",
+  "description": "Blank Process",
+  "main": "Copy Paste Range.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[18.3.6821.23110]",
+    "UiPath.Excel.Activities": "2.4.6837.26840-alpha"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "0.0.0.0",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
